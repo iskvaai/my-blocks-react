@@ -8,18 +8,14 @@ const Tags = () => {
                 <h4>Tags</h4>
             </div>
             <div className="w3-container w3-white">
-                {
-                    tags.map((item)=>{
-                        console.log(tags);
-                        return   <p><span className="w3-tag w3-black w3-margin-bottom">{item.travel}</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-                            <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">{item.ikea}</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-                            <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">{item.ideas}</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-                            <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">{item.news}</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-                            <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">{item.sports}</span> <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-                        </p>
+                   <p/><span className="w3-tag w3-black w3-margin-bottom" style={{marginRight:"3px"}}>Travel</span>
+                       {
+                           tags.map((item)=>{
+                               console.log(tags);
+                               return <span className="w3-tag w3-light-grey w3-small w3-margin-bottom" style={{marginRight:"3px"}}>{item.tag}</span>
+
                     })
                 }
-
 
             </div>
         </div>
