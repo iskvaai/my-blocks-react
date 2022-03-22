@@ -85,3 +85,18 @@ export const tags = [
     }
 
 ]
+
+export const commentary = [
+    {
+        id:1,
+        name:"Aidana",
+        comment:"мне кажется"
+
+    },
+    {
+        id:2,
+        name:"Meka",
+        comment:"я думаю"
+    }
+
+]

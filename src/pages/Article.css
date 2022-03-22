@@ -1,0 +1,14 @@
+.headerOpacity{
+    opacity: 0.5;
+    text-align: center;
+}
+.headerText{
+    text-align: center;
+}
+.right{
+    float: right;
+}
+.articleText{
+    font-size: 16px;
+
+}

@@ -2,7 +2,7 @@ import React from "react";
 import AboutMe from "../AboutMe/AboutMe";
 import {PopularPosts} from "../PopularPosts/PopularPosts";
 import Tags from "../Tags/Tags";
-import {popularPost} from "../../constant";
+
 
 
 const Sidebar = () => {
