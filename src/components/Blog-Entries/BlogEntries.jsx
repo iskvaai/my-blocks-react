@@ -11,12 +11,17 @@ return (
                 console.log(posts)
                 return <BlogItem
                     key={index}
+                    meka={item.meka}
                     title={item.title}
+                    tag={item.tag}
                     titleDesc={item.titleDesc}
                     date={item.date}
                     desc={item.desc}
                     countComments={item.countComments}
+
+
                     imageUrl={item.imageUrl}
+                    id={item.id}
                 />
 
             })

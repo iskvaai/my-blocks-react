@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {tags} from "../../constant";
-import {click} from "@testing-library/user-event/dist/click";
+
 
 const Tags = () => {
 
