@@ -18,7 +18,7 @@ const Article = () => {
         <>
             <div className={styles.main}>
                 <div className={styles.container}>{
-                    postData.meka.map((item) => {
+                    postData.commentUser.map((item) => {
                     return <>
                     <img src={item.imgLink} alt="" />
                     <p>{item.name} {item.dateUser}</p> <br/>

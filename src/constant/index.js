@@ -9,7 +9,7 @@ export const posts = [
         desc: "Около 10 лет назад я вторично начал вести блог в «Живом журнале» (и вел его около полутора лет).Там я пробовал писать, в том числе, на научно-популярные, философские и религиозные темы и, в частности, о высоком Средневековье(в тот период я читал и перечитывал Жака ле Гоффа, Анри де Любака, Нормана Дэвиса и Йохана Хёйзингу).",
         countComments: '0',
         imageUrl: "https://habrastorage.org/getpro/habr/upload_files/393/586/360/3935863609416855fa2234ecc2d38a2f.jpg",
-        meka:[
+        commentUser:[
             {
                 imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
                 name: "OlegSivchenko ",
@@ -33,7 +33,7 @@ export const posts = [
         name: "OlegSivchenko ",
         dateUser: "18 марта в 03:33",
 
-        meka:[
+        commentUser:[
             {
                 imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
                 name: "MaksovMaks ",

@@ -11,7 +11,7 @@ return (
                 console.log(posts)
                 return <BlogItem
                     key={index}
-                    meka={item.meka}
+                    meka={item.commentUser}
                     title={item.title}
                     tag={item.tag}
                     titleDesc={item.titleDesc}
