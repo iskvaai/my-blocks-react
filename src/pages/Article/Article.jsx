@@ -17,14 +17,11 @@ const Article = () => {
     return (
         <>
             <div className={styles.main}>
-                <div className={styles.container}>{
-                    postData.commentUser.map((item) => {
-                    return <>
-                    <img src={item.imgLink} alt="" />
-                    <p>{item.name} {item.dateUser}</p> <br/>
-                    </>
-                })
-                    }
+                <div className={styles.container}>
+
+                    <img src={postData.commentUser.imgLink} alt="" />
+                    <p>{postData.commentUser.name} {postData.commentUser.dateUser}</p> <br/>
+
                 </div>
                 <h1>{postData.title}</h1>
 

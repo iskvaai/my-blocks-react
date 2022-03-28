@@ -9,13 +9,13 @@ export const posts = [
         desc: "Около 10 лет назад я вторично начал вести блог в «Живом журнале» (и вел его около полутора лет).Там я пробовал писать, в том числе, на научно-популярные, философские и религиозные темы и, в частности, о высоком Средневековье(в тот период я читал и перечитывал Жака ле Гоффа, Анри де Любака, Нормана Дэвиса и Йохана Хёйзингу).",
         countComments: '0',
         imageUrl: "https://habrastorage.org/getpro/habr/upload_files/393/586/360/3935863609416855fa2234ecc2d38a2f.jpg",
-        commentUser:[
-            {
+
+        commentUser:{
                 imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
                 name: "OlegSivchenko ",
-                dateUser: "18 марта в 03:33"
-            }
-        ],
+                dateUser: new Date().toLocaleTimeString()
+            },
+
         tag:["Научно-популярное", "Физика", "Астрономия"]
 
 
@@ -33,13 +33,13 @@ export const posts = [
         name: "OlegSivchenko ",
         dateUser: "18 марта в 03:33",
 
-        commentUser:[
-            {
+
+        commentUser:{
                 imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
                 name: "MaksovMaks ",
-                dateUser: "20 марта в 04:33"
-            }
-        ],
+                dateUser:new Date().toLocaleTimeString()
+            },
+
         tag:["Научно-популярное", "Физика", "Астрономия"]
     },
 
@@ -132,5 +132,99 @@ export const comments = [
         img: "https://p.favim.com/orig/2018/08/09/creativity-animals-naomi-lord-Favim.com-6137536.jpg",
         name: 'Meerim Egemberdieva,  6 месяца назад',
         comment: 'Ну и интересное замечание -- thermal runaway и core-collapse это процессы, отличающиеся друг от друга, а главное происходящие с совершенно разными объектами (крохотный БК массой 1.44Msun vs ядро в несколько масс (иногда десятков масс) Солнца в сверхмассивной звезде), но их наблюдаемые характеристики достаточно схожи, чтобы изначально поместить их в одну категорию "сверхновые" и только спустя некоторое время понять, что Ia (и подтипы) отличаются от всех остальных сверхновых.'
+    }
+]
+
+export const userCard = [
+    {
+       id: 1,
+        name: "Leanne Graham",
+        email:"Sincere@april.biz",
+        phone: "1-770-736-8031 x56442",
+        website: "hildegard.org",
+        companyName: "Romaguera-Crona",
+
+    },
+    {
+        id: 2,
+        name: "Ervin Howell",
+        email: "Shanna@melissa.tv",
+        phone: "010-692-6593 x09125",
+        website: "anastasia.net",
+        companyName: "Deckow-Crist",
+
+    },
+    {
+        id: 3,
+        name: "Clementine Bauch",
+        email: "Nathan@yesenia.net",
+        phone: "1-463-123-4447",
+        website: "ramiro.info",
+        companyName: "Romaguera-Jacobson",
+
+    },
+    {
+        id: 4,
+        name: "Patricia Lebsack",
+        email: "Julianne.OConner@kory.org",
+        phone: "493-170-9623 x156",
+        website: "kale.biz",
+        companyName: "Robel-Corkery",
+
+    },
+    {
+        id: 5,
+        name: "Chelsey Dietrich",
+        email: "Lucio_Hettinger@annie.ca",
+        phone: "(254)954-1289",
+        website: "demarco.info", companyName: "Keebler LLC",
+
+    },
+    {
+        id: 6,
+        name: "Mrs. Dennis Schulist",
+        email: "Karley_Dach@jasper.info",
+        phone: "1-477-935-8478 x6430",
+        website: "ola.org",
+        companyName:"Considine-Lockman",
+
+    },
+    {
+        id: 7,
+        name: "Kurtis Weissnat",
+        email: "Telly.Hoeger@billy.biz",
+        phone: "210.067.6132",
+        website: "elvis.io",
+        companyName: "Johns Group",
+
+    },
+    {
+        id: 8,
+        name: "Nicholas Runolfsdottir V",
+        email: "Sherwood@rosamond.me",
+        phone: "586.493.6943 x140",
+        website: "jacynthe.com",
+        companyName:"Abernathy Group",
+
+    },
+    {
+        id: 9,
+        name: "Glenna Reichert",
+        email: "Chaim_McDermott@dana.io",
+        phone: "(775)976-6794 x41206",
+        website: "conrad.com",
+        companyName : "Yost and Sons",
+
+
+    },
+    {
+        id: 10,
+        name: "Clementina DuBuque",
+        email: "Rey.Padberg@karina.biz",
+        phone: "024-648-3804",
+        website: "ambrose.net",
+        companyName: "Hoeger LLC",
+
+
     }
 ]
