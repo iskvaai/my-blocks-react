@@ -34,7 +34,6 @@ const Test = () => {
                         <div className={styles.useCard}>
                             <p  className={styles.CardName} > {item.name} </p>
                             <p>{item.email} </p>
-                            <p>{item.email} </p>
                             <p>{item.phone} </p>
                             <p>{item.website} </p>
                             <p>{item.companyName} </p>
